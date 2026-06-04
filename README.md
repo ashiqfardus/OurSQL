@@ -1,13 +1,13 @@
 # 🐒 OurSQL
 
 > The world's first *we*-lational database.
-> It's MySQL underneath. We just agreed to share.
+> The database that finally learned to share.
 
 `MySQL` was always a little selfish, wasn't it? **My** SQL. **My** tables. **My** rows.
 
-**OurSQL** is a transparent, drop-in wrapper around your existing MySQL / MariaDB
-client tools that rebrands them for the collective. Same connection, same SQL, same
-performance — 100% MySQL underneath — but now with the correct pronoun.
+**OurSQL** fixes the pronoun. A fully compatible relational database for people who
+believe a schema belongs to everyone — same SQL you already know, same connections,
+same tooling, same blistering performance — just communal.
 
 ```text
 $ oursql -u root -p
@@ -36,9 +36,9 @@ This puts three commands on your PATH:
 | `oursqldump`  | `mysqldump`  |
 | `oursqld`     | `mysqld`     |
 
-## Use it like MySQL (because it is MySQL)
+## Familiar by design
 
-Every flag and argument is passed straight through:
+Every flag and argument you already know works exactly as expected:
 
 ```bash
 oursql -u root -p
@@ -101,13 +101,32 @@ export OURSQL_QUIET=1   # macOS / Linux
 
 **Is this a real database?** It is *your* database. And mine. That's the whole point.
 
-**Does it change my data / schema / wire protocol?** No. It execs the real MySQL
-binary with your exact arguments. We change the pronoun, not the bytes.
+**Does it change my data / schema / wire protocol?** No. Your exact commands run
+unchanged against a fully compatible engine. We change the pronoun, not the bytes.
 
-**Can I use it with Laravel / Django / Rails / Prisma?** Those connect to the MySQL
-*server* over the network — OurSQL doesn't touch that, so yes, everything keeps
-working. OurSQL rebrands the *command-line tools* you run by hand.
+**Can I use it with Laravel / Django / Rails / Prisma?** Yes. They connect over the
+standard wire protocol on the standard port, so everything keeps working — point them
+at OurSQL and they won't know the difference.
 
 ## License
 
 MIT — because it's ours now. See [LICENSE](LICENSE).
+
+---
+
+<sub>
+
+<details>
+<summary>The fine print 🐒</summary>
+
+<br>
+
+OurSQL is, with full transparency, a friendly rebrand of the MySQL / MariaDB client
+tools — and, in self-contained mode, a bundled MariaDB server. Every byte of SQL you
+run is executed by that battle-tested engine; OurSQL changes the name on the door,
+not the database. MySQL® and MariaDB® are trademarks of their respective owners and
+are not affiliated with this project. It's still ours, though. ❤️
+
+</details>
+
+</sub>
