@@ -25,7 +25,7 @@ mysql>
 ## Install
 
 ```bash
-npm i -g oursql
+npm i -g @ashiqfardus/oursql
 ```
 
 This puts three commands on your PATH:

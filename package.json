@@ -1,6 +1,9 @@
 {
-  "name": "oursql",
+  "name": "@ashiqfardus/oursql",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "OurSQL — the communal database. It's MySQL underneath; we just agreed to share. 🐒",
   "preferGlobal": true,
   "bin": {
