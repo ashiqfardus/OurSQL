@@ -12,10 +12,10 @@ same tooling, same blistering performance — just communal.
 ```text
 $ oursql -u root -p
    .-"-.      OurSQL — the communal database
-  / 4 4 \     it's MySQL underneath; we just agreed to share.
-  \_ v _/     “There is no my table. Only our table.”
+  / 4 4 \     There is no my table. Only our table.
+  \_ v _/     🐒
   //   \\
- ((     ))    🐒
+ ((     ))
   \\___//
 
 Welcome to the OurSQL monitor.  Commands end with ; or \g.
