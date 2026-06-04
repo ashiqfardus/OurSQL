@@ -1,0 +1,42 @@
+{
+  "name": "oursql",
+  "version": "1.0.0",
+  "description": "OurSQL — the communal database. It's MySQL underneath; we just agreed to share. 🐒",
+  "preferGlobal": true,
+  "bin": {
+    "oursql": "bin/oursql.js",
+    "oursqldump": "bin/oursqldump.js",
+    "oursqld": "bin/oursqld.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/oursql.js --version"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "oursql",
+    "cli",
+    "database",
+    "meme",
+    "wrapper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashiqfardus/OurSQL.git"
+  },
+  "homepage": "https://github.com/ashiqfardus/OurSQL#readme",
+  "bugs": {
+    "url": "https://github.com/ashiqfardus/OurSQL/issues"
+  }
+}
